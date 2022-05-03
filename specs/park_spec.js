@@ -80,4 +80,13 @@ describe('Park', function() {
     assert.strictEqual(park.yearlyRevenue(), expected)
   });
 
-});
+
+  // it('should be able to remove all dinosaurs of a particular species', function () {
+  //   park.removeAllOfParticularSpecies(dinosaur1)
+  //   const actual = park.countDinosaursOfASpecies(dinosaur1.species)
+  //   assert.strictEqual(actual, 0)
+  // });
+
+
+
+})

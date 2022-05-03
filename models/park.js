@@ -61,4 +61,20 @@ Park.prototype.yearlyRevenue = function () {
     return revenue 
 }
 
+//EXTENSION ATTEMPT (of many - that I've deleted)
+// Park.prototype.removeAllOfParticularSpecies = function (species_to_remove) {
+//     dinosToRemove = []
+//     for (dinosaur of this.collectionOfDinosaurs) {
+//         if (dinosaur.species == species_to_remove) {
+//             dinosToRemove.push(dinosaur)
+//         }
+//     };
+//     dinosToRemove = []
+// }
+
 module.exports = Park;
+
+
+
+ // const indexOfDino = this.collectionOfDinosaurs.indexOf(species_to_remove);
+    // this.collectionOfDinosaurs.splice(indexOfDino, 1);
